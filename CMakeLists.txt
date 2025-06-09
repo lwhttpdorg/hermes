@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.10 FATAL_ERROR)
 project(Hermes VERSION 1.0.0 LANGUAGES CXX)
 
 option(COMPILE_BASE64 "Compile the Base64 encoding/decoding library" ON)
-option(COMPILE_URL    "Compile the URL encoding/decoding library" ON)
+option(COMPILE_URL "Compile the URL encoding/decoding library" ON)
 
 set(HERMES_SRCS)
 
